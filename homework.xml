@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="46">
-            <field name="TEXT">107*286=</field>
+            <field name="TEXT">4568*222222=</field>
             <next>
               <block type="oled_drawnumber" id="79" inline="true">
                 <value name="NUMBER">
@@ -22,12 +22,12 @@
                     <field name="OP">MULTIPLY</field>
                     <value name="A">
                       <block type="math_number" id="116">
-                        <field name="NUM">107</field>
+                        <field name="NUM">4568</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="123">
-                        <field name="NUM">286</field>
+                        <field name="NUM">222222</field>
                       </block>
                     </value>
                   </block>
